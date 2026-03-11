@@ -89,6 +89,10 @@ function esAnioBisiesto(anio) {
 
 // Test 6:
 function validarContraseña(password) {
+	const tieneLongitudAdecuada = password.length >= 8;
+	const tieneMayuscula = /[A-Z]/.test(password);
+	const tieneNumero = /\d/.test(password);
+	return tieneLongitudAdecuada && tieneMayuscula && tieneNumero;
 	// Recibe un string con una contraseña.
 	// Devuelve true si cumple TODAS estas condiciones:
 	// - Tiene al menos 8 caracteres
