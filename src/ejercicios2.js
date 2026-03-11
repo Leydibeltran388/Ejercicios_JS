@@ -182,6 +182,10 @@ function calcularPropina(total, porcentaje) {
 
 // Test 11:
 function esPalabraPalindroma(palabra) {
+	let texto=palabra.toLowerCase();
+	let letras=texto.split("");
+	let invertida=letras.reverse().join("");
+	return texto===invertida;
 	// Recibe un string.
 	// Devuelve true si la palabra se lee igual de izquierda a derecha
 	// y de derecha a izquierda (ignora mayúsculas/minúsculas).
