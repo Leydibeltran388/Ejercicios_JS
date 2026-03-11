@@ -206,7 +206,7 @@ function retornarPerimetro(lado) {return lado*4
 }
 
 // Test 31
-function areaDelTriangulo(base, altura) {return base*altura/2
+function areaDelTriangulo(base, altura) {return base*altura/
 	//Desarrolle una función que calcule el área de un triángulo.
 	//Escribe tu código aquí
 }
